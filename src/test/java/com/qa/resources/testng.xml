@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRM_TestSuite">
+  
+ <listeners>
+ 	<listener class-name ="../PageObjectModel_TestNG/src/main/java/com/qa/reports/ExtentReportListener"/>
+ </listeners>
+  
+  <test thread-count="5" name="POM_FreeCRM">
+  <classes>
+      <class name="com.qa.testcases.ContactsPage_TestCase"/>
+      <class name="com.qa.testcases.HomePage_TestCase"/>
+      <class name="com.qa.testcases.LoginPage_TestCase"/>
+    </classes>
+  </test> <!-- POM_FreeCRM -->
+</suite> <!-- FreeCRM_TestSuite -->

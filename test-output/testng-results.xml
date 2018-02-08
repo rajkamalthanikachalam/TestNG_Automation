@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38677" started-at="2018-02-06T15:41:05Z" finished-at="2018-02-06T15:41:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38677" started-at="2018-02-06T15:41:05Z" finished-at="2018-02-06T15:41:44Z">
+      <class name="com.qa.testcases.LoginPage_TestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="setup" is-config="true" duration-ms="10831" started-at="2018-02-06T09:41:05Z" finished-at="2018-02-06T09:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPage_Title()[pri:1, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="validateLoginPage_Title" duration-ms="44" started-at="2018-02-06T09:41:16Z" finished-at="2018-02-06T09:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage_Title -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="teardown" is-config="true" duration-ms="763" started-at="2018-02-06T09:41:16Z" finished-at="2018-02-06T09:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="setup" is-config="true" duration-ms="8435" started-at="2018-02-06T09:41:17Z" finished-at="2018-02-06T09:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPage_Logo()[pri:2, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="validateLoginPage_Logo" duration-ms="337" started-at="2018-02-06T09:41:25Z" finished-at="2018-02-06T09:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage_Logo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="teardown" is-config="true" duration-ms="662" started-at="2018-02-06T09:41:25Z" finished-at="2018-02-06T09:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="setup" is-config="true" duration-ms="10051" started-at="2018-02-06T09:41:26Z" finished-at="2018-02-06T09:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPage_Credential()[pri:3, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="validateLoginPage_Credential" duration-ms="6815" started-at="2018-02-06T09:41:36Z" finished-at="2018-02-06T09:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage_Credential -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPage_TestCase@3dd4520b]" name="teardown" is-config="true" duration-ms="685" started-at="2018-02-06T09:41:43Z" finished-at="2018-02-06T09:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.LoginPage_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
