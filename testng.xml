@@ -3,14 +3,14 @@
 <suite name="FreeCRM_TestSuite">
  
  <listeners>
- 	<listener class-name ="../PageObjectModel_TestNG/src/main/java/com/qa/reports/ExtentReportListener.java"/>
+ 	<listener class-name ="com.qa.reports.ExtentReportListener"/>
  </listeners>
  
   <test thread-count="5" name="FreeCRM_POM">
     <classes>
       <class name="com.qa.testcases.ContactsPage_TestCase"/>
-      <class name="com.qa.testcases.HomePage_TestCase"/>
-      <class name="com.qa.testcases.LoginPage_TestCase"/>
+    <!--   <class name="com.qa.testcases.HomePage_TestCase"/> --> 
+    <!--   <class name="com.qa.testcases.LoginPage_TestCase"/> --> 
     </classes>
     
   </test> <!-- FreeCRM_POM -->

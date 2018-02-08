@@ -1,6 +1,8 @@
 package com.qa.reports;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -20,11 +22,12 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class ExtentReportListener implements IReporter {
 	private ExtentReports extent;
-
+	DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+	
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator
-				+ "ExtendReport.html", true);
+				+ "ExtendReport"+ dateFormat + ".html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
