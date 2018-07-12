@@ -25,7 +25,6 @@ public class LoginPage extends TestBase {
 	//To initialize the web element stored under Page Factory
 	public LoginPage(){
 		PageFactory.initElements(driver, this);   
-		
 	}	
 	
 	//Actions

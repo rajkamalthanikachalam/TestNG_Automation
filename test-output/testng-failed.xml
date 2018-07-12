@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM_TestSuite]">
-  <listeners>
-    <listener class-name="com.qa.reports.ExtentReportListener"/>
-  </listeners>
-  <test name="FreeCRM_POM(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.qa.testcases.ContactsPage_TestCase">
         <methods>
@@ -16,5 +13,5 @@
         </methods>
       </class> <!-- com.qa.testcases.ContactsPage_TestCase -->
     </classes>
-  </test> <!-- FreeCRM_POM(failed) -->
-</suite> <!-- Failed suite [FreeCRM_TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

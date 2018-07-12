@@ -8,6 +8,7 @@
           <include name="teardown"/>
           <include name="ContactsPage_ValidateNewContact"/>
           <include name="setup"/>
+          <include name="ContactPage_ValidateSelectContacts_single"/>
           <include name="ContactPage_ValidateLabel"/>
         </methods>
       </class> <!-- com.qa.testcases.ContactsPage_TestCase -->

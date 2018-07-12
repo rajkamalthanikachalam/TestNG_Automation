@@ -2,43 +2,43 @@
 <testng-results skipped="1" failed="2" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="FreeCRM_TestSuite" duration-ms="58689" started-at="2018-02-08T04:53:23Z" finished-at="2018-02-08T04:54:22Z">
+  <suite name="Default suite" duration-ms="66404" started-at="2018-02-16T13:44:02Z" finished-at="2018-02-16T13:45:08Z">
     <groups>
     </groups>
-    <test name="FreeCRM_POM" duration-ms="58689" started-at="2018-02-08T04:53:23Z" finished-at="2018-02-08T04:54:22Z">
+    <test name="Default test" duration-ms="66404" started-at="2018-02-16T13:44:02Z" finished-at="2018-02-16T13:45:08Z">
       <class name="com.qa.testcases.ContactsPage_TestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="setup" is-config="true" duration-ms="15106" started-at="2018-02-07T22:53:23Z" finished-at="2018-02-07T22:53:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="setup" is-config="true" duration-ms="19129" started-at="2018-02-16T07:44:02Z" finished-at="2018-02-16T07:44:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ContactPage_ValidateLabel()[pri:1, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="ContactPage_ValidateLabel" duration-ms="442" started-at="2018-02-07T22:53:38Z" finished-at="2018-02-07T22:53:39Z">
+        <test-method status="FAIL" signature="ContactPage_ValidateLabel()[pri:1, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="ContactPage_ValidateLabel" duration-ms="636" started-at="2018-02-16T07:44:21Z" finished-at="2018-02-16T07:44:22Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //td[contains(text(),''Contacts)] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//td[contains(text(),''Contacts)]' is not a valid XPath expression.
-  (Session info: chrome=64.0.3282.140)
+  (Session info: chrome=64.0.3282.167)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir2728_67}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.140, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b7921aed3d04230e00610e4b3d917b7a
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir10256_26805}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.167, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b01ee2830d36013f0d41c7568c3a6805
 *** Element info: {Using=xpath, value=//td[contains(text(),''Contacts)]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //td[contains(text(),''Contacts)] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//td[contains(text(),''Contacts)]' is not a valid XPath expression.
-  (Session info: chrome=64.0.3282.140)
+  (Session info: chrome=64.0.3282.167)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir2728_67}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.140, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: b7921aed3d04230e00610e4b3d917b7a
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir10256_26805}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.167, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b01ee2830d36013f0d41c7568c3a6805
 *** Element info: {Using=xpath, value=//td[contains(text(),''Contacts)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -99,40 +99,40 @@ Session ID: b7921aed3d04230e00610e4b3d917b7a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPage_ValidateLabel -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="teardown" is-config="true" duration-ms="662" started-at="2018-02-07T22:53:39Z" finished-at="2018-02-07T22:53:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="teardown" is-config="true" duration-ms="839" started-at="2018-02-16T07:44:22Z" finished-at="2018-02-16T07:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="setup" is-config="true" duration-ms="11266" started-at="2018-02-07T22:53:39Z" finished-at="2018-02-07T22:53:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="setup" is-config="true" duration-ms="14440" started-at="2018-02-16T07:44:22Z" finished-at="2018-02-16T07:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ContactPage_ValidateSelectContacts_single()[pri:2, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="ContactPage_ValidateSelectContacts_single" duration-ms="30435" started-at="2018-02-07T22:53:50Z" finished-at="2018-02-07T22:54:21Z">
+        <test-method status="FAIL" signature="ContactPage_ValidateSelectContacts_single()[pri:2, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="ContactPage_ValidateSelectContacts_single" duration-ms="30495" started-at="2018-02-16T07:44:37Z" finished-at="2018-02-16T07:45:07Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/a[text()='Wimpy Burger']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
-  (Session info: chrome=64.0.3282.140)
+  (Session info: chrome=64.0.3282.167)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir6728_23624}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.140, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0db0eb722a9bd41ea2ae005bbeee6b34
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir72_14709}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.167, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9dfc9be125536494c6cb16bb23258a30
 *** Element info: {Using=xpath, value=/a[text()='Wimpy Burger']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/a[text()='Wimpy Burger']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']"}
-  (Session info: chrome=64.0.3282.140)
+  (Session info: chrome=64.0.3282.167)
   (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'DESKTOP-48CJMGQ', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir6728_23624}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.140, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 0db0eb722a9bd41ea2ae005bbeee6b34
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAJKAM~1\AppData\Local\Temp\scoped_dir72_14709}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=64.0.3282.167, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9dfc9be125536494c6cb16bb23258a30
 *** Element info: {Using=xpath, value=/a[text()='Wimpy Burger']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -190,11 +190,11 @@ Session ID: 0db0eb722a9bd41ea2ae005bbeee6b34
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactPage_ValidateSelectContacts_single -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="teardown" is-config="true" duration-ms="712" started-at="2018-02-07T22:54:21Z" finished-at="2018-02-07T22:54:22Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="teardown" is-config="true" duration-ms="768" started-at="2018-02-16T07:45:07Z" finished-at="2018-02-16T07:45:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="ContactsPage_ValidateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.ContactsPage_TestCase@3fee9989]" name="ContactsPage_ValidateNewContact" duration-ms="0" started-at="2018-02-07T22:54:22Z" data-provider="getCRMTestData" finished-at="2018-02-07T22:54:22Z">
+        <test-method status="SKIP" signature="ContactsPage_ValidateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.ContactsPage_TestCase@14bf9759]" name="ContactsPage_ValidateNewContact" duration-ms="0" started-at="2018-02-16T07:45:08Z" data-provider="getCRMTestData" finished-at="2018-02-16T07:45:08Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -243,6 +243,6 @@ Caused by: java.lang.NullPointerException
           </reporter-output>
         </test-method> <!-- ContactsPage_ValidateNewContact -->
       </class> <!-- com.qa.testcases.ContactsPage_TestCase -->
-    </test> <!-- FreeCRM_POM -->
-  </suite> <!-- FreeCRM_TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
