@@ -21,8 +21,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
-	// public static String filename =
-	// System.getProperty("user.dir")+"\\src\\com\\qtpselenium\\xlsx\\Suite.xlsx";
+	public static String filename;
 	public String path;
 	public FileInputStream fis = null;
 	public FileOutputStream fileOut = null;
@@ -462,17 +461,18 @@ public class ExcelReader {
 
 	}
 
-	// to run this on stand alone
+	/*// to run this on stand alone
 	public static void main(String arg[]) throws IOException {
 
 		// System.out.println(filename);
 		ExcelReader datatable = null;
 
-		/*
-		 * datatable = new Xls_Reader(System.getProperty("user.dir")+
-		 * "\\src\\com\\qtpselenium\\xls\\Controller.xlsx"); for(int col=0 ;col<
-		 * datatable.getColumnCount("TC5"); col++){
-		 * System.out.println(datatable.getCellData("TC5", col, 1)); }
-		 */
-	}
+		
+		 datatable = new ExcelReader(System.getProperty("user.dir")+"/SQL_Query/testdata/DataSheet.xls"); 
+		 for(int col=0 ;col<datatable.getColumnCount("TC5"); col++)
+		 {
+			 System.out.println(datatable.getCellData("TC5", col, 1));
+	   	}
+		 
+	}*/
 }
